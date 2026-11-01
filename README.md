@@ -23,7 +23,7 @@ Then I wire AI in as a typed, tested component, not a chatbot bolted on the side
 ## Right now
 
 - 📞 **ElevateBox** makes real phone calls: message "call me" on WhatsApp and an AI agent rings you within a minute, sends details to your WhatsApp *during* the call, and rates the lead when you hang up.
-- 🌱 **Open-source contributor:** 1 pull request merged into OpenRewrite, 3 more in review at Spring AI, OpenRewrite and Google Jib.
+- 🌱 **Open-source contributor:** 1 pull request merged into OpenRewrite, 4 more in review at Spring AI, OpenRewrite and Google Jib.
 - 🎓 Final-year B.Tech (Computer & Communication Engineering), **Manipal University Jaipur**, graduating **May 2027** · CGPA 8.1
 - 💼 Previously **Backend Developer Intern at FinStocks AI** (AI trading startup, Dec 2025 – Feb 2026): Java and Spring Boot for a platform that backtests strategies and places approved orders through users' brokerage accounts.
 
@@ -78,6 +78,7 @@ Local-first assistant for shared flats: turns free-form household messages into 
 | [spring-projects/spring-ai](https://github.com/spring-projects/spring-ai) | [#7263](https://github.com/spring-projects/spring-ai/pull/7263): HSQLDB dialect for the JDBC session repository, with a standard-SQL `MERGE` upsert, schema, docs and contract tests | 🟡 In review |
 | [openrewrite/rewrite-spring](https://github.com/openrewrite/rewrite-spring) | [#1235](https://github.com/openrewrite/rewrite-spring/pull/1235): fixes `JdbcTemplateQueryForLongMigration`, which mis-bound `Object[], int[]` arguments and turned SQL `NULL` into an NPE; rebuilt on `JavaTemplate` | 🟡 In review |
 | [openrewrite/rewrite-spring](https://github.com/openrewrite/rewrite-spring) | [#1242](https://github.com/openrewrite/rewrite-spring/pull/1242): stops `MigrateAuditorAwareToOptional` from wrapping `return`s inside nested lambdas, which produced code that didn't compile | ✅ Merged |
+| [openrewrite/rewrite-spring](https://github.com/openrewrite/rewrite-spring) | [#1243](https://github.com/openrewrite/rewrite-spring/pull/1243): keeps statically imported `PathSelectors.regex(..)` calls compiling when `NormalizeSpringfoxPathSelectorsRegexToAnt` rewrites them to `ant(..)` | 🟡 In review |
 | [GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib) | [#4531](https://github.com/GoogleContainerTools/jib/pull/4531): makes `jib.container.environment` a lazily evaluated Gradle `MapProperty` (fixes #4067) | 🟡 In review |
 
 ---
